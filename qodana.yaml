@@ -1,0 +1,10 @@
+version: "1.0"
+linter: jetbrains/qodana-cdnet:2024.3
+profile:
+  name: qodana.starter
+exclude:
+  - name: All
+    paths:
+      - MNIST
+      - multi-container-app
+      - WpfLibrary1
