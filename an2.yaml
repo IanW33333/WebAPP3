@@ -1,0 +1,10 @@
+version: "1.0"
+linter: jetbrains/qodana-js:2026.2
+profile:
+  name: qodana.starter
+exclude:
+  - name: All
+    paths:
+      - MNIST
+      - multi-container-app
+      - WpfLibrary1
